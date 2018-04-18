@@ -1,8 +1,8 @@
-FROM yoshinorin/docker-scala:2.12.4
+FROM yoshinorin/docker-scala:2.12.5
 
 MAINTAINER YoshinoriN
 
-ENV SBT_VERSION=1.1.0
+ENV SBT_VERSION=1.1.4
 
 RUN apt-get update \
  && curl -sL https://github.com/sbt/sbt/releases/download/v${SBT_VERSION}/sbt-${SBT_VERSION}.tgz | tar xzf - -C /usr/local \
