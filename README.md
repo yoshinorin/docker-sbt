@@ -10,6 +10,7 @@ Docker image for sbt with Scala.
 |1.1.4|Debian|8u151-jdk|2.12.5|1.1.4|
 |1.2.8|Debian|openjdk11|2.12.8|1.2.8|
 |1.2.8.2|Debian|openjdk11|2.12.9|1.2.8|
+|1.3.3|Ubuntu(bionic)|adoptopenjdk:11.0.4|2.13.0|1.3.3|
 
 # Usaga
 
