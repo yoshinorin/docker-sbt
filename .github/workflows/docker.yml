@@ -15,5 +15,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: yoshinorin/docker-sbt/image
+          repository: yoshinorin/docker-sbt/docker-sbt
           tag_with_ref: true
