@@ -1,4 +1,4 @@
-FROM ghcr.io/yoshinorin/docker-scala:latest:v2.13.5.2
+FROM ghcr.io/yoshinorin/docker-scala:v2.13.5.2
 
 MAINTAINER yoshinorin
 
