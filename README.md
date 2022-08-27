@@ -19,7 +19,7 @@ Docker image for sbt with Scala.
 |v1.6.1|Ubuntu(focal)|adoptopenjdk:11.0.9|2.13.5|1.6.1|
 |v1.6.2|Ubuntu(focal)|eclipse-temurin:17.0.2_8-jre|2.13.6|1.6.2|
 |v1.7.1|Ubuntu(focal)|eclipse-temurin:17.0.3_7-jre|2.13.8|1.7.1|
-|v1.7.1.2|Ubuntu(focal)|eclipse-temurin:17.0.4.1_1-jdk|2.13.8|1.7.1|
+|v1.7.1.2|Ubuntu(jammy)|eclipse-temurin:17.0.4.1_1-jdk|2.13.8|1.7.1|
 
 # Usaga
 
