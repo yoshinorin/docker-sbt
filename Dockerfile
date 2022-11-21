@@ -1,8 +1,8 @@
-FROM ghcr.io/yoshinorin/docker-scala:v2.13.10
+FROM ghcr.io/yoshinorin/docker-scala:v2.13.10.2
 
 LABEL maintainer="yoshinorin"
 
-ENV SBT_VERSION=1.7.3
+ENV SBT_VERSION=1.8.0
 
 RUN curl -sL https://github.com/sbt/sbt/releases/download/v${SBT_VERSION}/sbt-${SBT_VERSION}.tgz | tar xzf - -C /usr/local \
  && ln -s /usr/local/sbt/bin/sbt /usr/local/bin/sbt
