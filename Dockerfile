@@ -1,4 +1,4 @@
-FROM ghcr.io/yoshinorin/docker-scala:v3.2.2
+FROM ghcr.io/yoshinorin/docker-scala:v3.3.0
 
 LABEL maintainer="yoshinorin"
 
