@@ -2,7 +2,7 @@ FROM ghcr.io/yoshinorin/docker-scala:v3.3.1
 
 LABEL maintainer="yoshinorin"
 
-ENV SBT_VERSION=1.9.6
+ENV SBT_VERSION=1.9.7
 
 RUN apt update -y \
  && apt upgrade -y \
