@@ -2,7 +2,7 @@ FROM ghcr.io/yoshinorin/docker-scala:v3.3.3-21.0.2_13-jdk-jammy
 
 LABEL maintainer="yoshinorin"
 
-ENV SBT_VERSION=1.9.7
+ENV SBT_VERSION=1.9.8
 
 RUN apt update -y \
  && apt upgrade -y \
