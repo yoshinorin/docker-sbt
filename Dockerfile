@@ -1,4 +1,4 @@
-FROM ghcr.io/yoshinorin/docker-scala:v3.4.1-21.0.2_13-jdk-jammy
+FROM ghcr.io/yoshinorin/docker-scala:v3.4.2-21.0.2_13-jdk-jammy
 
 LABEL maintainer="yoshinorin"
 
