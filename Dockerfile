@@ -1,8 +1,8 @@
-FROM ghcr.io/yoshinorin/docker-scala:v3.5.2-21.0.5_11-jdk-noble
+FROM ghcr.io/yoshinorin/docker-scala:v3.6.2-21.0.5_11-jdk-noble
 
 LABEL maintainer="yoshinorin"
 
-ENV SBT_VERSION=1.10.4
+ENV SBT_VERSION=1.10.5
 
 RUN apt update -y \
  && apt upgrade -y \
