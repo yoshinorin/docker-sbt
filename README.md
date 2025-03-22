@@ -48,6 +48,7 @@ Docker image for sbt with Scala.
 |sbt [v1.10.8 is dead](https://github.com/sbt/sbt/releases/tag/v1.10.8)| - | - | - |1.10.8|
 |v1.10.9-scala3.6.4-jdk21|Ubuntu(noble)|eclipse-temurin:21.0.6_7-jdk|3.6.4|1.10.9|
 |v1.10.10-scala3.6.4-jdk21|Ubuntu(noble)|eclipse-temurin:21.0.6_7-jdk|3.6.4|1.10.10|
+|v1.10.11-scala3.6.4-jdk21|Ubuntu(noble)|eclipse-temurin:21.0.6_7-jdk|3.6.4|1.10.11|
 
 # Usaga
 

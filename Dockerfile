@@ -2,7 +2,7 @@ FROM ghcr.io/yoshinorin/docker-scala:v3.6.4-21.0.6_7-jdk-noble
 
 LABEL maintainer="yoshinorin"
 
-ENV SBT_VERSION=1.10.10
+ENV SBT_VERSION=1.10.11
 
 RUN apt update -y \
  && apt upgrade -y \
