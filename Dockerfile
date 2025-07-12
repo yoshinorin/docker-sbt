@@ -9,5 +9,6 @@ RUN apt update -y \
  && curl -sL https://github.com/sbt/sbt/releases/download/v${SBT_VERSION}/sbt-${SBT_VERSION}.tgz | tar xzf - -C /usr/local \
  && ln -s /usr/local/sbt/bin/sbt /usr/local/bin/sbt \
  && rm -f /usr/local/sbt/bin/sbtn-aarch64-apple-darwin /usr/local/sbt/bin/sbtn-x86_64-apple-darwin /usr/local/sbt/bin/sbtn-x86_64-pc-win32.exe \
- && apt autoremove \
- && apt clean
+ && apt autoremove -y \
+ && apt clean \
+ && rm -rf /var/lib/apt/lists/*
