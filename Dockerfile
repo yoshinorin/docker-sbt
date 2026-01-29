@@ -1,4 +1,4 @@
-FROM ghcr.io/yoshinorin/docker-scala:v3.7.4-25.0.1_8-jdk-noble
+FROM ghcr.io/yoshinorin/docker-scala:v3.8.1-25.0.1_8-jdk-noble
 
 LABEL maintainer="yoshinorin"
 
