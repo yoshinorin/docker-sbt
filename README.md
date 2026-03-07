@@ -63,6 +63,7 @@ Docker image for sbt with Scala.
 |v1.12.1-scala3.7.4-jdk25|Ubuntu(noble)|eclipse-temurin:25.0.1_8-jdk|3.7.4|1.12.1|
 |v1.12.1-scala3.8.1jdk25|Ubuntu(noble)|eclipse-temurin:25.0.1_8-jdk|3.8.1|1.12.1|
 |v1.12.2-scala3.8.2jdk25|Ubuntu(noble)|eclipse-temurin:25.0.2_10-jdk|3.8.2|1.12.2|
+|v1.12.3-scala3.8.2jdk25|Ubuntu(noble)|eclipse-temurin:25.0.2_10-jdk|3.8.2|1.12.3|
 
 # Usaga
 
