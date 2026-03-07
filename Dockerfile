@@ -2,8 +2,8 @@ FROM ghcr.io/yoshinorin/docker-scala:v3.8.2-25.0.2_10-jdk-noble
 
 LABEL maintainer="yoshinorin"
 
-ENV SBT_VERSION=1.12.3
-ENV SBT_SHA256=bd9e2964b9cab062f870dcbdfeca2c47ddb9cb3a47490a01db0f03742d7123f6
+ENV SBT_VERSION=1.12.4
+ENV SBT_SHA256=3a02d4cd9867fce25982f9b168c245ff4e478dd769415db542e5beeb9f9fb87a
 
 RUN apt update -y \
  && apt upgrade -y \
