@@ -3,10 +3,14 @@ FROM ghcr.io/yoshinorin/docker-scala:v3.8.2-25.0.2_10-jdk-noble
 LABEL maintainer="yoshinorin"
 
 ENV SBT_VERSION=1.12.3
+ENV SBT_SHA256=bd9e2964b9cab062f870dcbdfeca2c47ddb9cb3a47490a01db0f03742d7123f6
 
 RUN apt update -y \
  && apt upgrade -y \
- && curl -sL https://github.com/sbt/sbt/releases/download/v${SBT_VERSION}/sbt-${SBT_VERSION}.tgz | tar xzf - -C /usr/local \
+ && curl -sL https://github.com/sbt/sbt/releases/download/v${SBT_VERSION}/sbt-${SBT_VERSION}.tgz -o /tmp/sbt.tgz \
+ && echo "${SBT_SHA256} /tmp/sbt.tgz" | sha256sum -c - || { echo "ERROR: SHA256 checksum mismatch for sbt-${SBT_VERSION}.tgz. Expected: ${SBT_SHA256}"; exit 1; } \
+ && tar xzf /tmp/sbt.tgz -C /usr/local \
+ && rm /tmp/sbt.tgz \
  && ln -s /usr/local/sbt/bin/sbt /usr/local/bin/sbt \
  && rm -f /usr/local/sbt/bin/sbtn-aarch64-apple-darwin /usr/local/sbt/bin/sbtn-x86_64-apple-darwin /usr/local/sbt/bin/sbtn-x86_64-pc-win32.exe \
  && apt autoremove -y \
