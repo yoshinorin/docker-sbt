@@ -1,6 +1,6 @@
 FROM ghcr.io/yoshinorin/docker-scala:v3.8.2-25.0.2_10-jdk-noble
 
-LABEL maintainer="yoshinorin"
+LABEL org.opencontainers.image.authors="yoshinorin"
 
 ENV SBT_VERSION=1.12.5
 ENV SBT_SHA256=f213d84b2efd01cc6b52799a9c92984a0c5d5f072b5ea41722ab8f979f289be0
