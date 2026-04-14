@@ -2,8 +2,8 @@ FROM ghcr.io/yoshinorin/docker-scala:v3.8.3-25.0.2_10-jdk-noble
 
 LABEL org.opencontainers.image.authors="yoshinorin"
 
-ENV SBT_VERSION=1.12.8 \
-    SBT_SHA256=3c655b217a4c925372cf1975e8beff81995589a2d07efae870e8cc32573de1a6
+ENV SBT_VERSION=1.12.9 \
+    SBT_SHA256=94d2eda5486d343aebb24c675368c2d220880bbe540457917b65a844d7cb061c
 
 RUN apt update -y \
  && apt upgrade -y \
