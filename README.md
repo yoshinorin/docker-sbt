@@ -6,6 +6,7 @@ Docker image for sbt with Scala.
 
 - See:
   - [Releases (v1)](docs/RELEASES.v1.md)
+  - [Releases (v2)](docs/RELEASES.v2.md)
 
 # Build
 
