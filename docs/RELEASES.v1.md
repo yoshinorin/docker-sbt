@@ -1,4 +1,4 @@
-# Releases
+# Releases (v1)
 
 |version|OS|JDK|Scala|sbt|
 |---|---|---|---|---|
