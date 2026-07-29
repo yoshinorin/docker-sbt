@@ -69,3 +69,5 @@
 |v1.12.10-scala3.8.4jdk25|Ubuntu(noble)|eclipse-temurin:25.0.3_9-jdk|3.8.4|1.12.10|
 |v1.12.11-scala3.8.4jdk25|Ubuntu(noble)|eclipse-temurin:25.0.3_9-jdk|3.8.4|1.12.11|
 |v1.12.12-scala3.8.4jdk25|Ubuntu(noble)|eclipse-temurin:25.0.3_9-jdk|3.8.4|1.12.12|
+|v1.12.13-scala3.8.4jdk25|Ubuntu(noble)|eclipse-temurin:25.0.3_9-jdk|3.8.4|1.12.13|
+|v1.12.14-scala3.8.4jdk25|Ubuntu(noble)|eclipse-temurin:25.0.3_9-jdk|3.8.4|1.12.14|
