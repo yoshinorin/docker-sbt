@@ -1,10 +1,10 @@
-# docker buildx imagetools inspect ghcr.io/yoshinorin/docker-scala:v3.8.4-25.0.3_9-jdk-noble
-FROM ghcr.io/yoshinorin/docker-scala:v3.8.4-25.0.3_9-jdk-noble@sha256:645dc75a6d4ee1663f5ba90aef2593311b6265c99d37bf037601085673b43785
+# docker buildx imagetools inspect ghcr.io/yoshinorin/docker-scala:v3.9.0-25.0.4.1_1-jdk-resolute
+FROM ghcr.io/yoshinorin/docker-scala:v3.9.0-25.0.4.1_1-jdk-resolute@sha256:7d8e90bb76ab5b3ef5ce6a0032595cf0108c65f7190c37d3694568e25d12d869
 
 LABEL org.opencontainers.image.authors="yoshinorin"
 
-ENV SBT_VERSION=2.0.2 \
-    SBT_SHA256=d8073ffd122cea950e34440fb3fe14120c471a0bf2843c72d27f25835ee724f9
+ENV SBT_VERSION=2.0.3 \
+    SBT_SHA256=b2cd0ac3a494734dbf10d80cad5c40ddd558cba4e0fa93c542835f806596f9a3
 
 RUN apt update -y \
  && apt upgrade -y \
