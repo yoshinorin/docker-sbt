@@ -10,3 +10,4 @@
 |v2.0.5-scala3.9.0jdk25|Ubuntu(resolute)|eclipse-temurin:25.0.4.1_1-jdk|3.9.0|2.0.5|
 |v2.0.6-scala3.9.0jdk25|Ubuntu(resolute)|eclipse-temurin:25.0.4.1_1-jdk|3.9.0|2.0.6|
 |v2.0.7-scala3.9.0jdk25|Ubuntu(resolute)|eclipse-temurin:25.0.4.1_1-jdk|3.9.0|2.0.7|
+|v2.0.8-scala3.9.0jdk25|Ubuntu(resolute)|eclipse-temurin:25.0.4.1_1-jdk|3.9.0|2.0.8|
