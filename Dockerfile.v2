@@ -3,8 +3,8 @@ FROM ghcr.io/yoshinorin/docker-scala:v3.9.0-25.0.4.1_1-jdk-resolute@sha256:7d8e9
 
 LABEL org.opencontainers.image.authors="yoshinorin"
 
-ENV SBT_VERSION=2.0.5 \
-    SBT_SHA256=2a53c95403cb7fccd5da05d48cfe03ff4be573a3f3d0295a41963b109e756a18
+ENV SBT_VERSION=2.0.6 \
+    SBT_SHA256=60ce78a50b726b5b332a5277e363d67c028f16a3a15157f78a416c0b2949bc6d
 
 RUN apt update -y \
  && apt upgrade -y \
